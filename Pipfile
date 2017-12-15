@@ -8,6 +8,7 @@ name = "pypi"
 [packages]
 
 googlemaps = "*"
+python-forecastio = "*"
 
 
 [dev-packages]
