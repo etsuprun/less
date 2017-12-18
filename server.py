@@ -1,7 +1,6 @@
 from flask import request, Flask
 from flask_cors import CORS
 from message_handler import *
-import sys
 
 app = Flask(__name__)
 CORS(app)
@@ -12,8 +11,7 @@ CORS(app)
 def handle_message():
 	
 	received_message = request.form.to_dict()
-	sys.stderr.write(str(received_message))
 	response = respond_to_message(received_message)
 	return (response)
 
-app.run(port = 9000)
+app.run(host = '0.0.0.0', port = 9000)

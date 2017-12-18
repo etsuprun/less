@@ -12,4 +12,4 @@ Edit `api_keys.py` and replace the values of Google Maps and Dark Sky API keys.
 
 Start the webserver:
 
-```$ pipenv run python -m flask server.py```
+```$ pipenv run python -m server.py```
