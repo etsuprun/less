@@ -9,6 +9,8 @@ name = "pypi"
 
 googlemaps = "*"
 python-forecastio = "*"
+flask-cors = "*"
+flask-json = "*"
 flask = "*"
 
 
